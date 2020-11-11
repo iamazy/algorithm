@@ -12,14 +12,14 @@ fn read_line() -> (usize, usize) {
 fn main() {
     const MAX: usize = 100;
     let mut matrix = [[0usize; MAX]; MAX];
-    while true {
+    loop {
         let (n, m) = read_line();
         if n == 0 && m == 0 {
             break;
         }
         for _ in 1..=m {
             let (u, v) = read_line();
-            matrix[u-1][v-1] = 1usize;
+            matrix[u - 1][v - 1] = 1usize;
         }
         for i in 0..n {
             let mut od = 0usize;
