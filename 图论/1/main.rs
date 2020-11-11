@@ -1,6 +1,4 @@
 use std::io;
-// ndarray = "0.13.1"
-use ndarray::{Array, ShapeBuilder};
 
 fn read_line() -> (usize, usize) {
     let input = &mut String::new();
