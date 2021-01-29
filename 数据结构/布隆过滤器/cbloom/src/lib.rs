@@ -1,5 +1,3 @@
-// https://github.com/redox-os/tfs/blob/master/cbloom
-
 use std::sync::atomic::{self, AtomicU64};
 use std::fs::File;
 use std::cmp;
